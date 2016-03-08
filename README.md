@@ -16,7 +16,7 @@ A Simple REST API
  * Failed case: if required argument is missing, status is "error"
 
 **Sample run:**
- node app.js
+ node app.js  
  localhost:3000/api/word=fizzbuzz&max_value=30
 
 **References:**
