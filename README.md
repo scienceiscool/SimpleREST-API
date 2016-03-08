@@ -27,5 +27,7 @@ localhost:3000/api/word=fizzbuzz&max_value=30
 
 **References:**
  * NodeJS > Docs
+ * ExpressJS > Docs
+ * MDN > JavaScript
  * Lynda > Building a Website with Node.js and Express.js
  * Lynda > Node.js Essential Training
