@@ -13,11 +13,11 @@ A Simple REST API
 
 **Notes:**
  * `/api?word=fizz&max_value=30` doesn't work but `/api/word=fizz&max_value=30` works
- * Failed case: if required argument is missing, status is "error"
+ * Failed case: If required argument is missing, status is "error"
 
-**Sample run:**
- node app.js  
- localhost:3000/api/word=fizzbuzz&max_value=30
+**Sample run:**  
+    node app.js  
+    localhost:3000/api/word=fizzbuzz&max_value=30
 
 **References:**
  * NodeJS > Docs
