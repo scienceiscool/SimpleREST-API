@@ -11,13 +11,19 @@ A Simple REST API
 
 **Status:** Working  
 
+**Target system:** Linux  
+
 **Notes:**
  * `/api?word=fizz&max_value=30` doesn't work but `/api/word=fizz&max_value=30` works
  * Failed case: If required argument is missing, status is "error"
 
 **Sample run:**  
-    node app.js  
-    localhost:3000/api/word=fizzbuzz&max_value=30
+_install dependencies_  
+npm install  
+_run_  
+node app.js  
+_go to browser_  
+localhost:3000/api/word=fizzbuzz&max_value=30
 
 **References:**
  * NodeJS > Docs
