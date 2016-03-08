@@ -1,0 +1,13 @@
+{
+  "name": "rest-api",
+  "version": "0.0.0",
+  "description": "small web application that presents a simple REST api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kathy Saad <kathysaad@gmail.com>",
+  "dependencies": {
+    "express": "~4.13.4"
+  }
+}
